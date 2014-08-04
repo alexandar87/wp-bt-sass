@@ -1,4 +1,4 @@
-wp-bt-sass
+Wordpress Bootstrap Sass starter theme
 ==========
 
-Wordpress-Bootstrap-Sass
+Hi this is my base starter theme that i use to start my wordpress projects.
