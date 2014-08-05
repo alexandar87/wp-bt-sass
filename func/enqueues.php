@@ -26,11 +26,9 @@ if( !is_admin()){
 
 function bst_enqueues()
 {
-		wp_register_style('bootstrap-css', get_template_directory_uri() . '/css/bootstrap.min.css', false, null);
-		wp_enqueue_style('bootstrap-css');
 
-  	wp_register_style('main', get_template_directory_uri() . '/css/main.css', false, null);
-		wp_enqueue_style('main');
+  	wp_register_style('screen', get_template_directory_uri() . '/css/screen.css', false, null);
+		wp_enqueue_style('screen');
 
   	wp_register_script('modernizr', get_template_directory_uri() . '/js/modernizr-2.6.2.min.js', false, null, true);
     wp_enqueue_script('modernizr');
