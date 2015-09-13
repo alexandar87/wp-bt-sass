@@ -86,3 +86,7 @@ if ( ! function_exists( 'bst_pagination' ) ) {
 		}
 	}
 }
+
+if( function_exists('acf_add_options_page') ) {
+    acf_add_options_page();
+}
